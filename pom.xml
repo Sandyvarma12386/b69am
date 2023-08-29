@@ -36,18 +36,18 @@
 </distributionManagement>
     -->
     
-<distributionManagement>
-    
-    <repository>
-        <id>central</id>
-        <name>a0f4611vllwce-artifactory-primary-0-releases</name>
-        <url>https://cloudbinaryawsdevops.jfrog.io/artifactory/b68am</url>
-    </repository>
-    
+<distributionManagement>+
+  
+  <repository>
+  <id>central</id>
+  <name>jfrog.cloudbinary.io-releases</name>
+  <url>http://100.25.38.72:8081/artifactory/libs-release-local</url>
+</repository>
+
     <snapshotRepository>
         <id>snapshots</id>
-        <name>a0f4611vllwce-artifactory-primary-0-snapshots</name>
-        <url>https://cloudbinaryawsdevops.jfrog.io/artifactory/b68am</url>
+        <name>jfrog.cloudbinary.io-snapshots</name>
+        <url>http://100.25.38.72:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
     
 </distributionManagement>    

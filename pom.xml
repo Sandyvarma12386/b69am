@@ -39,7 +39,7 @@
 <distributionManagement>+
   
   <repository>
-  <id>central</id>
+  <id>releases</id>
   <name>jfrog.cloudbinary.io-releases</name>
   <url>http://100.25.38.72:8081/artifactory/libs-release-local</url>
 </repository>
